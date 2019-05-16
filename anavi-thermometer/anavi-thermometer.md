@@ -328,7 +328,7 @@ Enabling binary signing
 Signed binary: /tmp/arduino_build_710055/sketch_apr03a.ino.bin.signed
 ```
 
-The exact file name will change depending on your installation. Use the signed binary instead of the .bin file. Once you have upgraded your ANAVI Thermometer using a signed build, OTA upgrades will reject any attempt to use an unsigned build or a build signed using the wrong key. (If necessary, you can still load an unsigned firmware using the USB to UART module, and then you will be able to use unsigned builds for OTA upgrades as well.)
+The exact file name will change depending on your installation. Use the signed binary instead of the .bin file. Once you have upgraded your ANAVI Thermometer using a signed build, OTA upgrades will reject any attempt to use an unsigned build, a build signed using the wrong key, or a build that has been tampered with. (If necessary, you can still load an unsigned firmware using the USB to UART module, and then you will be able to use unsigned builds for OTA upgrades as well.)
 
 Be sure the back up the private.key file, and make sure nobody can get hold of it.
 
